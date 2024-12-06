@@ -10,9 +10,9 @@ const app = express();
 app.use(bodyParser.json()); // Parse JSON body data
 
 // Blockchain setup
-const providerURL = "https://data-seed-prebsc-1-s1.binance.org:8545"; // BSC Testnet RPC URL
-const privateKey = "9a8c92db738236b14a411180d55833a43d3c2b5809581e911c7de6d4e5e1fc4e"; // Replace with your private key
-const contractAddress = "0xfE0623D04778f86C512A888d9FC771bAC6599F9d"; // Replace with your contract address
+const providerURL = "https://bsc-dataseed.binance.org"; // BSC Testnet RPC URL
+const privateKey = "391212aaff42ae000a1241ca7c24f2260b34d5729177277148c05de64af7719c"; // Replace with your private key
+const contractAddress = "0x972cc9042815f869b38A60AA4984c8D3b1240803"; // Replace with your contract address
 const contractABI = require("./abi/contractABI.json"); // ABI file
 
 // Initialize Web3 with a provider
